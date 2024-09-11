@@ -1,38 +1,86 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #eabfb9;
+  color: #222;
+  font-family: Cinzel Decorative, cursive;
+  font-size: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  border: 2px solid #222;
+  outline: 2px solid #222;
+  outline-offset: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 112rem;
+  min-height: 50%;
+  padding: 6rem 0;
+}
+.weather-container {
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  margin-top: 4rem;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  background-color: #f0d2ce;
+  border: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  width: 32rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loader {
+  margin-top: 2.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.weather {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1.5rem;
+  margin-top: 4rem;
 }
-
-.App-link {
-  color: #61dafb;
+li {
+  text-align: center;
+  padding: 1.6rem 0.5rem;
+  background-color: #f0d2ce;
+  width: 12.8rem;
+  flex-shrink: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li p:first-of-type {
+  margin-bottom: 2.1rem;
+}
+li p:last-of-type {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+li span {
+  font-size: 5rem;
 }
