@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# classyweather
+ClassyWeather: A sleek and simple web application that provides users with daily and weekly weather updates. Designed with a stylish interface, featuring weather forecasts specifically for Istanbul.
+>>>>>>> ebc4275ad99c69492e8d856c603c7bf9a96e6755
