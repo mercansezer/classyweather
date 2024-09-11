@@ -47,3 +47,8 @@ Two different APIs are integrated in the project:
 ## Error Handling
 
 - If an invalid city name is entered or if the API fails to retrieve data, the app will display a "Location not found" error message.
+
+- ## Demo
+
+You can click [here](https://classy-weather.netlify.app/) for a live demo.
+
